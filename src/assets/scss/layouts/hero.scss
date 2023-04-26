@@ -1,0 +1,43 @@
+.hero {
+
+    &__title {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+        display: block;
+        width: 432px;
+        line-height: calc(61 / 60);
+        margin: 0 auto;
+    }
+
+    &__text {
+        display: block;
+        width: 800px;
+        margin: 24px auto;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ABADB2;
+        line-height: calc(31 / 24);
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        background: #172135;
+        border-radius: 3px;
+
+        &:not(:first-child) {
+            margin-left: 16px;
+        }
+    }
+
+    &__item-text {
+        margin-left: 5px;
+    }
+}

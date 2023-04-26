@@ -1,0 +1,42 @@
+.header {
+    padding: 10.5px 0;
+
+    &__link-home {
+        font-size: 12px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__contact-btn {
+        width: 123px;
+        height: 39px;
+        font-size: 12px;
+        background: #3474F3;
+        border-radius: 6px;
+        margin-left: 28px;
+    }
+
+    &__btn-wrapper {
+        display: flex;
+    }
+
+    &__link,
+    &__btn {
+        display: flex;
+        width: 18px;
+        height: 18px;
+    }
+
+    &__btn {
+        margin-left: 18px;
+    }
+}

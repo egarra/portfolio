@@ -1,0 +1,15 @@
+.menu {
+
+    margin-right: 28px;
+    
+    &__list {
+        display: flex;
+        font-size: 12px;
+    }
+
+    &__item {
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+    }
+}

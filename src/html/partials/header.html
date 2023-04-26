@@ -1,26 +1,21 @@
 <header class="header">
   <div class="container header__container">
-    <a href="./" aria-label="logo ">
-      <img
-        class="logo"
-        src="./assets/images/logo-dark.svg"
-        alt="GoIT logo"
-        width="67"
-        height="20"
-      />
-    </a>
-    <button type="button" class="mobile-menu-btn" data-menu-btn aria-label="otwórz menu mobilne">
-      <svg class="mobile-menu-svg" width="30" height="20">
-        <use href="./assets/images/sprite.svg#icon-mobile-menu"></use>
-      </svg>
-    </button>
-    <button
-      type="button"
-      class="btn btn-modal tablet-menu-btn"
-      data-menu-btn
-      aria-label="otwórz menu tabletu"
-    >
-      show form
-    </button>
+    <a class="header__link-home" href="/">egarra</a>
+    <div class="header__menu-wrapper">
+    {% include 'components/nav-menu.html' %}
+      <div class="header__btn-wrapper">
+        <a class="header__link">
+          <svg class="header__icon" width="18" height="18">
+            <use href="./assets/images/sprite.svg#icon-github"></use>
+          </svg>
+        </a>
+        <button class="header__btn">
+          <svg class="header__icon" width="18" height="18">
+            <use href="./assets/images/sprite.svg#icon-color"></use>
+          </svg>
+        </button>
+      </div>
+      <button class="header__contact-btn">Contact me</button>
+    </div>
   </div>
 </header>
