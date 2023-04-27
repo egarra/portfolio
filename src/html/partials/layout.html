@@ -4,13 +4,19 @@
 <html lang="{{ lang }}">
 
 <head>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   {%include 'head.html' %}
 </head>
 
 <body>
 
   <div class="page">{% block content %} {% endblock %}</div>
-
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
   <script src="assets/js/app.js"></script>
 </body>
 

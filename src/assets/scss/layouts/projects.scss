@@ -1,0 +1,93 @@
+.projects {
+
+    &__container {
+        position: relative;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: calc(60 / 48);
+        margin-bottom: 48px;
+    }
+
+    &__title span {
+        color: #2563EB;
+    }
+
+    &__swiper {
+        overflow: hidden;
+    }
+
+    .slick-track {
+        display: flex;
+    }
+
+    &__swiper-slide {
+        width: 500px!important;
+        padding: 26px;
+        background: #172135;
+        border-radius: 10px;
+        
+        &:not(:first-child) {
+            margin-left: 120px;
+        }
+    }
+
+    &__title-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 26px;
+    }
+
+    &__title {
+        font-size: 32px;
+    }
+
+    &__date {
+        color: rgba(247, 243, 243, 0.6);
+        font-size: 16px;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 26px;
+        margin-bottom: 12px;
+    }
+
+    &__item {
+        font-size: 12px;
+        padding: 2px 8px;
+
+        &:not(:last-child) {
+            margin-left: 12px;
+        }
+    }
+
+    .slider__btn {
+        width: 56px;
+        height: 56px;
+        background: #172135;
+        border-radius: 50%;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__prev,
+    &__next {
+        position: absolute;
+        z-index: 200;
+        top: 50%;
+    }
+
+    &__prev {
+        left: 20px;
+    }
+
+    &__next {
+        right: 20px;
+    }
+}

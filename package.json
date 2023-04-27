@@ -61,7 +61,8 @@
     "jquery": "^3.6.0",
     "node-sass": "^8.0.0",
     "sass": "^1.58.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swiper": "^9.2.4"
   },
   "overrides": {
     "graceful-fs": "^4.2.10"
