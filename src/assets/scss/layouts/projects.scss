@@ -97,6 +97,11 @@
     }
   }
 
+  &__prev svg,
+  &__next svg {
+    stroke: white;
+  }
+
   &__prev {
     left: 100px;
   }

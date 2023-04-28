@@ -1,5 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path fill="none" stroke="inherit" stroke-width="3" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M22.5 3.167l-13 12.917 13 12.917"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path fill="none" stroke="inherit" stroke-width="3" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M9.5 28.833l13-12.917-13-12.917"></path>
+</symbol>
 <symbol id="icon-gmail" viewBox="0 0 32 32">
 <path fill="#f7f3f3" style="fill: var(--color1, #f7f3f3)" d="M16.657 14.56v4.373h10.728c-0.328 2.453-1.167 4.249-2.445 5.511-1.57 1.529-4.013 3.2-8.283 3.2-6.605 0-11.768-5.191-11.768-11.627s5.163-11.627 11.768-11.627c3.558 0 6.167 1.369 8.083 3.129l3.157-3.076c-2.664-2.524-6.241-4.444-11.24-4.444-9.049 0-16.657 7.183-16.657 16s7.608 16 16.657 16c4.889 0 8.575-1.564 11.457-4.48 2.956-2.88 3.886-6.951 3.886-10.223 0-1.013-0.073-1.956-0.237-2.737h-15.107z"></path>
 </symbol>
