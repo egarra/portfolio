@@ -6,4 +6,5 @@ $('.projects__swiper').slick({
     variableWidth: true,
     nextArrow: '.projects__next',
     prevArrow: '.projects__prev',
+    infinite: false,
   });
