@@ -2,24 +2,36 @@
   &__wrapper {
     background: #172135;
     border-radius: 25px;
-    padding: 78px 270px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @include mq(desktop) {
+      padding: 78px 270px;
+    }
   }
 
   &__title {
-    font-size: 60px;
+    font-size: 28px;
     text-align: center;
+
+    @include mq(desktop) {
+      font-size: 60px;
+    }
   }
 
   &__btn {
-    font-size: 60px;
+    font-size: 28px;
     color: #2563EB;
     font-weight: 700;
     position: relative;
-    width: 500px;
+
+    @include mq(desktop) {
+      font-size: 60px;
+      width: 500px;
+    }
 
     &::after {
       content: '';

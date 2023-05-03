@@ -7,42 +7,7 @@
 
   &__container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-  }
-
-  &__menu-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  &__contact-btn {
-    width: 123px;
-    height: 39px;
-    font-size: 12px;
-    background: #3474f3;
-    border-radius: 6px;
-    margin-left: 28px;
-
-    transition: box-shadow 200ms linear;
-
-    &:hover {
-      box-shadow: 0px 8px 18px rgba(76, 64, 247, 0.5);
-    }
-  }
-
-  &__btn-wrapper {
-    display: flex;
-  }
-
-  &__link,
-  &__btn {
-    display: flex;
-    width: 18px;
-    height: 18px;
-  }
-
-  &__btn {
-    margin-left: 18px;
   }
 }

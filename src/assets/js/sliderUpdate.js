@@ -1,4 +1,5 @@
 const sliderUpdate = ({ prevButton, nextButton, slides, slickSlider }) => {
+  console.log('hee')
   const disableBtns = lastSlide => {
     prevButton.attr('disabled', true).addClass('slider__btn-disabled');
 

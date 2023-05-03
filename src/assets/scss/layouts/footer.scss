@@ -4,7 +4,10 @@
   &__container {
     display: flex;
     justify-content: space-between;
-    padding: 18px 80px;
+
+    @include mq(desktop) {
+      padding: 18px 80px;
+    }
   }
 
   &__list {

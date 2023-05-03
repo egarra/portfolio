@@ -42,5 +42,5 @@ function handleModal(trigger) {
   window.addEventListener('keydown', closeByEsc);
 }
 
-handleModal('.header__contact-btn');
+handleModal('.menu__contact-btn');
 handleModal('.contacts__btn');
