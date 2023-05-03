@@ -1,43 +1,61 @@
 .hero {
+  &__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    display: block;
+    line-height: calc(32 / 30);
+    margin: 0 auto;
 
-    &__title {
-        text-align: center;
+    @include mq(desktop) {
         font-size: 60px;
-        font-weight: 700;
-        display: block;
-        width: 432px;
         line-height: calc(61 / 60);
-        margin: 0 auto;
+        width: 432px;
     }
+  }
 
-    &__text {
-        display: block;
-        width: 800px;
-        margin: 24px auto;
+  &__text {
+    display: block;
+    margin: 24px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #abadb2;
+    line-height: calc(31 / 24);
+
+    @include mq(desktop) {
         font-size: 24px;
-        font-weight: 700;
-        color: #ABADB2;
         line-height: calc(31 / 24);
+        width: 800px;
     }
+  }
 
-    &__list {
-        display: flex;
-        justify-content: center;
+  &__list {
+    display: block;
+
+    @include mq(desktop) {
+      display: flex;
+      justify-content: center;
     }
+  }
 
-    &__item {
-        display: flex;
-        align-items: center;
-        padding: 8px;
-        background: #172135;
-        border-radius: 3px;
+  &__item {
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #172135;
+    border-radius: 3px;
 
-        &:not(:first-child) {
-            margin-left: 16px;
-        }
+    &:not(:first-child) {
+      margin-top: 10px;
+      @include mq(desktop) {
+        margin-left: 16px;
+      }
     }
+  }
 
-    &__item-text {
-        margin-left: 5px;
-    }
+  &__item-text {
+    margin-left: 5px;
+  }
 }
