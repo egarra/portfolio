@@ -52,6 +52,10 @@
     font-size: 12px;
     background: #3474f3;
     border-radius: 6px;
+
+    @include mq(desktop) {
+      display: none;
+    }
   }
 }
 
