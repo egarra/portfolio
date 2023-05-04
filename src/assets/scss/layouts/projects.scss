@@ -41,7 +41,7 @@
   &__swiper-slide {
     width: 500px !important;
     padding: 26px;
-    background: #172135;
+    background: var(--secondary-bg-color);
     border-radius: 10px;
     transition: box-shadow 200ms linear;
 
@@ -84,7 +84,7 @@
   .slider__btn {
     width: 56px;
     height: 56px;
-    background: #172135;
+    background: var(--secondary-bg-color);
     border-radius: 50%;
     font-size: 32px;
     display: flex;
@@ -111,11 +111,11 @@
   }
 
   &__prev {
-    left: 100px;
+    left: 10px;
   }
 
   &__next {
-    right: 100px;
+    right: 10px;
   }
 
   .slider__btn-hover {

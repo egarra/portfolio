@@ -1,6 +1,13 @@
 <header class="header">
   <div class="container header__container">
-    <a class="header__link-home" href="#" id="logo">egarra</a>
+    <div class="header__wrapper">
+      <a class="header__link-home" href="#" id="logo">egarra</a>
+      <button class="header__color-btn menu__btn">
+        <svg class="menu__icon" width="18" height="18">
+          <use href="./assets/images/sprite.svg#icon-color"></use>
+        </svg>
+      </button>
+    </div>
     {% include 'components/nav-menu.html' %}
   </div>
 </header>

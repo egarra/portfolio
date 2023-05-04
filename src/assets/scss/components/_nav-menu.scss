@@ -84,6 +84,11 @@
     height: 18px;
   }
 
+  &__icon {
+    fill: var(--primary-light-bg-color);
+    stroke: var(--primary-light-bg-color);
+  }
+
   &__btn {
     margin-left: 18px;
   }
@@ -116,7 +121,7 @@
   }
 
   .menu__burger-bar {
-    background-color: white;
+    background-color: var(--primary-light-bg-color);
     height: 2px;
     width: 20px;
     border-radius: 5px;

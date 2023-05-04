@@ -1,6 +1,7 @@
 @import './vendors/modern-normalize';
 
 @import './utils/mixins';
+@import './utils/vars';
 
 @import './base/fonts';
 @import './base/common';
@@ -10,6 +11,7 @@
 @import './components/nav-menu';
 @import './components/modal';
 @import './components/projects-mobile';
+@import './components/burger';
 
 @import './layouts/header';
 @import './layouts/hero';

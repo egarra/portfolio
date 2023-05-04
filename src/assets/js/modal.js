@@ -1,10 +1,10 @@
-function handleModal(trigger) {
+export function handleModal(trigger) {
   const btn = document.querySelector(trigger);
   const overflow = document.querySelector('.overflow');
   const closeBtn = document.querySelector('.modal__btn');
   const modal = document.querySelector('.modal');
   const scrollWidth = window.innerWidth - document.documentElement.clientWidth + 'px';
-
+  console.log('hell')
   function returnPadding() {
     setTimeout(() => {
       document.documentElement.style.overflow = '';
@@ -44,3 +44,5 @@ function handleModal(trigger) {
 
 handleModal('.menu__contact-btn');
 handleModal('.contacts__btn');
+handleModal('.burger__btn');
+

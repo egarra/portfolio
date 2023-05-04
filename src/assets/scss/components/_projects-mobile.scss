@@ -6,7 +6,7 @@
   }
 
   &__item {
-    background: #172135;
+    background: var(--secondary-bg-color);
     border-radius: 10px;
     padding: 18px;
     &:not(:first-child) {
@@ -23,7 +23,7 @@
 
   &__date {
     font-size: 12px;
-    color: rgba(247, 243, 243, 0.6);
+    color: var(--accent-text-color);
   }
 
   &__dev-list {

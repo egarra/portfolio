@@ -5,10 +5,10 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: #111827;
+  background-color: var(--primary-bg-color);
   z-index: 200;
   transition: transform 250ms;
-  overflow: hidden;
+  padding: 100px 20px;
 
   &--opened {
     transform: translateX(0);

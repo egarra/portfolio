@@ -9,10 +9,14 @@ html {
   box-sizing: inherit;
 }
 
+.body-overflow-hidden {
+  overflow: hidden;
+}
+
 body {
   font-family: 'OpenSans';
-  color: white;
-  background-color: #111827;
+  color: var(--primary-light-bg-color);
+  background-color: var(--primary-bg-color);
   font-size: 16px;
   line-height: 1.5;
   scroll-behavior: smooth;

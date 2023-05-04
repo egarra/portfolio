@@ -1,6 +1,17 @@
 .header {
   padding: 10.5px 0;
 
+  &__wrapper {
+    display: flex;
+  }
+
+  &__color-btn {
+
+    @include mq(desktop) {
+      display: none;
+    }
+  }
+
   &__link-home {
     font-size: 12px;
   }
