@@ -1,4 +1,4 @@
-export function handleModal(trigger) {
+const handleModal = (trigger) => {
   const btn = document.querySelector(trigger);
   const overflow = document.querySelector('.overflow');
   const closeBtn = document.querySelector('.modal__btn');

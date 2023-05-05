@@ -1,5 +1,5 @@
-const changeColorTheme = () => {
-  const btn = document.querySelector('.menu__btn');
+const changeColorTheme = (trigger) => {
+  const btns = document.querySelectorAll(trigger);
 
   const colorObj = {
     primaryBgColor: '#111827',
@@ -9,7 +9,9 @@ const changeColorTheme = () => {
   };
 
   let dark = true;
-  btn.addEventListener('click', () => {
+  
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
     if (dark) {
       dark = false;
       document.documentElement.style.setProperty(
@@ -49,6 +51,7 @@ const changeColorTheme = () => {
       );
     }
   });
+  })
 };
 
-changeColorTheme();
+changeColorTheme('.menu__btn');
